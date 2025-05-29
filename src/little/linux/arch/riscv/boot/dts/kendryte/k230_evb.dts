@@ -36,7 +36,7 @@
 	};
 };
 &ddr {
-	reg = <0x0 0x8200000 0x0 0x7dff000>;  /*linux memory config*/
+	reg = <0x0 0x30200000 0x0 0xfe00000>;  /*linux memory config*/
 };
 
 &i2c0 {

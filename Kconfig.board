@@ -39,6 +39,11 @@ config BOARD_K230_CANMV_01STUDIO
         help
            "CANMV(01STUDIO)";
 
+config BOARD_K230_CANMV_ZNS
+       bool "K230 CANMV(ZNS)"
+        help
+           "CANMV(ZNS)";
+
 config BOARD_K230_CANMV_LCKFB
 	bool "K230 CANMV LCKFB"
         help

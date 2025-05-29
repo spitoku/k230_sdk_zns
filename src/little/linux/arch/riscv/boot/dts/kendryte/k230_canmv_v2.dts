@@ -50,8 +50,9 @@
 
 &mmc_sd0{
     status = "okay";
+    io_fixed_1v8;
     rx_delay_line = <0x0d>;
-    tx_delay_line = <0xc0>;
+    tx_delay_line = <0x40>;
 };
 
 &mmc_sd1{
@@ -61,6 +62,15 @@
     mshc_ctrl_r = <0x00>;
 };
 
+&gpio23 {
+    status = "okay";
+};
+
+&gpio24 {
+    status = "okay";
+};
+
+/*
 &dsi {
     status = "okay";
 
@@ -83,7 +93,7 @@
         };
     };
 };
-
+*/
 &uart0 {
 	status = "okay";
 };
